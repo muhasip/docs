@@ -1,33 +1,42 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Backhub API Marketplace",
+  "theme": "prism",
+  "font": {
+  "headings": {
+    "family": "Sora"
+  },
+  "body": {
+    "family": "Manrope"
+  }
+},
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#2563EB",
+    "light": "#000000",
+    "dark": "#2563EB",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#383838",
+      "to": "#000000"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Destek",
+      "url": "mailto:hi@backhub.pro"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "İletişim",
+    "url": "https://backhub.pro"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "API Servisleri",
       "url": "api-reference"
     }
   ],
@@ -50,7 +59,7 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Servisler",
       "pages": [
         "introduction",
         "quickstart",
